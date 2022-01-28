@@ -1,0 +1,29 @@
+{
+  "name": "inertia-vue-placeholder-middleware",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fhrmnn/inertia-vue-placeholder-middleware"
+  },
+  "main": "dist/index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "prepublish": "tsc",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "inertia",
+    "vue",
+    "placeholder"
+  ],
+  "author": "Alexander Fuhrmann",
+  "license": "ISC",
+  "description": "provides a placeholder middleware to render predefined components while routing",
+  "devDependencies": {
+    "@inertiajs/inertia": "0.11.0",
+    "@inertiajs/inertia-vue3": "0.6.0",
+    "@types/node": "17.0.12",
+    "vue": "^3.0.0"
+  }
+}
